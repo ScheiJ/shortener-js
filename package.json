@@ -1,0 +1,23 @@
+{
+  "name": "shortener",
+  "version": "1.0.0",
+  "description": "url shortener from Julian Scheiner",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "url",
+    "url-shortener",
+    "julian-scheiner"
+  ],
+  "author": "Julian Scheiner",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "firebase-admin": "^10.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
